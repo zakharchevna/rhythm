@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap);
+
+@font-face {
+   font-family: 'Cal Sans', sans-serif;
+   src: url('../fonts/CalSans-SemiBold.woff2') format('woff2'), url('../fonts/CalSans-SemiBold.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+:root {
+   --text-color: #666;
+   --body-bg: #fff;
+   --header-menu-color: rgba(18, 18, 18, 0.4);
+   --footer-menu-color: rgba(18, 18, 18, 0.6);
+   --dark-title-color: #121212;
+   --primary-color-accent: #FF6428;
+   /* --light-title-color: #fff; */
+}
+
+
+body {
+   line-height: 1;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   scroll-behavior: smooth;
+   color: var(--text-color);
+   background-color: var(--body-bg);
+}
