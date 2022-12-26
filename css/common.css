@@ -27,3 +27,16 @@ body {
    color: var(--text-color);
    background-color: var(--body-bg);
 }
+
+[class*='__container'] {
+   max-width: 1230px;
+   margin: auto;
+   padding: 0px 15px;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: clip;
+   display: flex;
+   flex-direction: column;
+}
