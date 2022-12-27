@@ -1,0 +1,110 @@
+.store__container {
+   padding-top: 80px;
+   padding-bottom: 90px;
+}
+
+.store__title {
+   margin-bottom: 86px;
+}
+
+.new-goods-store {
+   padding-bottom: 96px;
+}
+
+.new-goods-store__header, .top-selling-store__header {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 15px;
+   align-items: center;
+   margin-bottom: 32px;
+}
+
+.store-header-title {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 1.5;
+   letter-spacing: 0.08em;
+   color: var(--dark-title-color);
+   text-transform: uppercase;
+}
+
+.view-all-link {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.5;
+   color: var(--view-all-link-color);
+   transition: all 0.3s ease 0s;
+}
+
+.view-all-link:hover {
+   text-decoration: 3px underline dashed #FF6428;
+}
+
+.new-goods-store__items,
+.top-selling-store__items {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 54px;
+   row-gap: 15px;
+}
+
+.item-new-goods-store__img, 
+.item-new-goods-store__img{
+   margin-bottom: 40px;
+   display: inline-block;
+   text-align: center;
+}
+.item-top-selling-store__img img, 
+.item-new-goods-store__img img {
+   max-width: 100%;
+}
+
+.store-item-title {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   color: var(--dark-title-color);
+   padding-bottom: 7px;
+}
+
+.store-item-price {
+   font-size: 14px;
+   line-height: 1.5;
+}
+
+@media (max-width: 991.98px) {
+   .store__container {
+         padding-top: 50px;
+         padding-bottom: 50px;
+      }
+   .store__title {
+         margin-bottom: 50px;
+      }
+   .new-goods-store__items,
+   .top-selling-store__items {
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 30px;
+   }
+}
+@media (max-width: 767.98px) {
+   .store__container {
+         padding-top: 30px;
+         padding-bottom: 30px;
+      }
+   .store__title {
+      margin-bottom: 30px;
+   }
+   .item-new-goods-store__img,
+   .item-new-goods-store__img {
+      margin-bottom: 20px;
+   }
+}
+
+@media (max-width: 560px) {
+   .new-goods-store__items,
+   .top-selling-store__items {
+      grid-template-columns: repeat(1, 1fr);
+      column-gap: 0;
+   }
+}
