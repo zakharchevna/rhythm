@@ -12,9 +12,11 @@
    --text-color: #666;
    --body-bg: #fff;
    --header-menu-color: rgba(18, 18, 18, 0.4);
+   --header-menu-bg: rgba(255, 255, 255, 0.7);
    --footer-menu-color: rgba(18, 18, 18, 0.6);
    --dark-title-color: #121212;
    --primary-color-accent: #FF6428;
+   --main-button-hover: #541d08;
    /* --light-title-color: #fff; */
 }
 
@@ -39,4 +41,20 @@ body {
    overflow: clip;
    display: flex;
    flex-direction: column;
+}
+
+.page {
+   flex: 1 1 auto;
+}
+
+.title {
+   font-family: 'Cal Sans', sans-serif;
+   font-weight: 600;
+   font-size: 44px;
+   line-height: 1.2;
+   color: var(--dark-title-color);
+}
+
+.title span {
+   color: var(--primary-color-accent);
 }
