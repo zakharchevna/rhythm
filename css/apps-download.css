@@ -1,0 +1,61 @@
+.apps-download__container {
+   padding-bottom: 120px;
+   display: flex;
+   align-items: center;
+   
+}
+
+.apps-download__content {
+   flex: 0 1 50%;
+   padding-right: 20px;
+}
+
+.apps-download__title {
+   font-size: 48px;
+   line-height: 1.4;
+   text-align: left;
+}
+
+.apps-download__title:not(:last-child) {
+   margin-bottom: 60px;
+}
+
+.apps-download__links {
+   transition: all 0.3s ease 0s;
+   display: flex;
+   gap: 25px;
+}
+
+.apps-download__apple-link:hover, .apps-download__google-link:hover {
+   transform: rotate(-353deg);
+}
+
+.apps-download__images {
+   flex: 0 1 50%;
+   text-align: center;
+}
+
+.apps-download__images img, 
+.apps-download__apple-link img, 
+.apps-download__google-link img {
+   max-width: 100%;
+}
+
+@media (max-width: 991.98px) {
+   .apps-download__container {
+         padding-bottom: 60px;
+         flex-direction: column;
+         row-gap: 50px;
+      }
+   .apps-download__title {
+      font-size: 38px;
+   }
+   .apps-download__title:not(:last-child) {
+      margin-bottom: 30px;
+   }
+}
+@media (max-width: 767.98px) {
+   .apps-download__container {
+         padding-bottom: 40px;
+      }
+}
