@@ -1,0 +1,92 @@
+.footer {
+   background-color: var(--footer-bg);
+}
+
+.footer__container {
+   padding-top: 80px;
+   padding-bottom: 43px;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+
+.footer__contacts {
+   flex: 0 1 35%;
+   padding: 5px;
+}
+
+.contacts-footer {
+
+}
+
+.contacts-footer__logo {
+   padding-bottom: 10px;
+   display: inline-block;
+}
+
+.contacts-footer__list {}
+
+.contacts-footer__item {}
+
+.contacts-footer__link {
+   display: inline-block;
+   padding-bottom: 10px;
+}
+
+.contacts-footer__link_mail {
+   color: inherit;
+   line-height: 1.5;
+}
+
+.contacts-footer__link_location {
+   color: inherit;
+   line-height: 1.6;
+}
+
+.footer__pages {
+   
+}
+
+.pages-footer {
+   flex: 0 1 15%;
+}
+
+.pages-footer__item {}
+
+.footer__product {
+   
+}
+
+.product-footer {
+   flex: 0 1 15%;
+}
+
+.product-footer__item {}
+
+.footer__social-media {}
+
+.social-media-footer {
+   flex: 0 0 20%;
+}
+
+.social-media-footer__title {
+   color: var(--dark-title-color);
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 1.5;
+   text-transform: uppercase;
+}
+
+.social-media-footer__icons {
+   display: flex;
+   gap: 10px;
+}
+.social-media-footer__icon {
+
+}
+
+.footer__copyright {
+   flex: 1 1 100%;
+   text-align: center;
+}
